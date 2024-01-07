@@ -1,6 +1,9 @@
 package Car;
 
-public class Car {
+import lombok.AllArgsConstructor;
+
+
+public abstract class Car {
     private String brand;
     private String model;
     private String color;
