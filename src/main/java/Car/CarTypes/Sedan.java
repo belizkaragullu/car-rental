@@ -5,10 +5,9 @@ import Car.MonthlyRentalCar;
 public class Sedan extends MonthlyRentalCar {
 
 
-    public Sedan(String brand, String model, String color, int luggageCapacity, String fuelType, double dailyRentalFee, int age) {
-        super(brand, model, color, luggageCapacity, fuelType, dailyRentalFee, age);
+    public Sedan(String brand, String model, String color, int luggageCapacity, int age, String fuelType, double dailyRentalFee) {
+        super(brand, model, color, luggageCapacity, age, fuelType, dailyRentalFee);
     }
-
 
     @Override
     public double calculateDailyRentalCost(int period) {

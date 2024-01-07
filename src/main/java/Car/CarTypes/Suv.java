@@ -1,11 +1,11 @@
 package Car.CarTypes;
 
 public class Suv extends Car.Car {
+    public Suv(String brand, String model, String color, int luggageCapacity, int age, String fuelType, double dailyRentalFee) {
+        super(brand, model, color, luggageCapacity, age, fuelType, dailyRentalFee);
+    }
 //paketleri yanlis mi yazdim?
 
-    public Suv(String brand, String model, String color, int luggageCapacity, String fuelType, double dailyRentalFee, int age) {
-        super(brand, model, color, luggageCapacity, fuelType, dailyRentalFee, age);
-    }
 
     @Override
     public double calculateDailyRentalCost(int period) {
