@@ -14,9 +14,9 @@ public class Main {
         IndividualCustomer individualCustomer = new IndividualCustomer(05451230000, "Beliz", "Karagullu");
         CompanyCustomer companyCustomer = new CompanyCustomer(02164440000, "A Company");
 
-        Hatchback hatchback = new Hatchback("Hatchback", "Model1", "Red", 4, "Petrol", 100, 2);
-        Sedan sedan = new Sedan("Sedan", "Model2", "Blue", 5, "Diesel", 150, 1);
-        Suv suv = new Suv("Suv", "Model3", "Black", 6, "Gasoline", 200, 3);
+        Hatchback hatchback = new Hatchback("Hatchback", "Model1", "Red", 4, 2,"Petrol", 100);
+        Sedan sedan = new Sedan("Sedan", "Model2", "Blue", 5, 1,"Diesel", 150);
+        Suv suv = new Suv("Suv", "Model3", "Black", 6, 3,"Gasoline", 200);
 
         if (!individualCustomer.isCanRentAllCars()) {
 
