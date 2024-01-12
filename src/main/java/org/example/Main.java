@@ -16,7 +16,9 @@ public class Main {
 
         Hatchback hatchback = new Hatchback("Hatchback", "Model1", "Red", 4, 2,"Petrol", 100);
         Sedan sedan = new Sedan("Sedan", "Model2", "Blue", 5, 1,"Diesel", 150);
-        Suv suv = new Suv("Suv", "Model3", "Black", 6, 3,"Gasoline", 200);
+        Suv suv = new Suv("Suv", "Model3", "Black", 6, 3,"Gasoline", 200, false);
+        Suv luxSuv = new Suv("Luxury Suv", "Model3", "Black", 6, 3,"Gasoline", 200, true);
+
 
         if (!individualCustomer.isCanRentAllCars()) {
 
@@ -37,6 +39,8 @@ public class Main {
             System.out.println(sedan.getBrand() + " " + sedan.getModel() + " --- Monthly Cost: " + sedan.calculateMonthlyRentalCost(1));
 
             System.out.println(suv.getBrand() + " " + suv.getModel() + " --- Daily Cost: " + suv.calculateDailyRentalCost(1));
+            System.out.println(luxSuv.getBrand() + " " + suv.getModel() + " --- Daily Cost: " + suv.calculateDailyRentalCost(1));
+
 
         }
 
