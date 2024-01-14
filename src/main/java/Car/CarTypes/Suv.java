@@ -10,7 +10,6 @@ public class Suv extends Car.Car {
     }
 
 
-
     @Override
     public double calculateDailyRentalCost(int period) {
         double discount;

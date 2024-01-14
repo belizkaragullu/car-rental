@@ -39,7 +39,7 @@ public class Main {
             System.out.println(sedan.getBrand() + " " + sedan.getModel() + " --- Monthly Cost: " + sedan.calculateMonthlyRentalCost(1));
 
             System.out.println(suv.getBrand() + " " + suv.getModel() + " --- Daily Cost: " + suv.calculateDailyRentalCost(1));
-            System.out.println(luxSuv.getBrand() + " " + suv.getModel() + " --- Daily Cost: " + suv.calculateDailyRentalCost(1));
+            System.out.println(luxSuv.getBrand() + " " + luxSuv.getModel() + " --- Daily Cost: " + luxSuv.calculateDailyRentalCost(1));
 
 
         }
